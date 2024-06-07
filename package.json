@@ -1,0 +1,63 @@
+{
+  "name": "react-web-ban-code",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@paypal/react-paypal-js": "^8.0.0",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.4.0",
+    "bootstrap": "^4.6.0",
+    "crypto-js": "^4.1.1",
+    "html-react-parser": "^4.0.0",
+    "jquery": "^3.7.0",
+    "mdbreact": "^4.6.1",
+    "query-string": "^8.1.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.4",
+    "react-dom": "^18.2.0",
+    "react-paginate": "^8.2.0",
+    "react-redux": "^8.0.5",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.12.1",
+    "react-slick": "^0.29.0",
+    "reactstrap": "^9.1.10",
+    "redux": "^4.2.1",
+    "slick-carousel": "^1.8.1",
+    "sweetalert2": "^11.7.11",
+    "web-vitals": "^2.1.4"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "scripts": {
+    "start:app": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "cross-env": "^7.0.3",
+    "react-scripts": "^5.0.1",
+    "@babel/plugin-proposal-private-property-in-object": "^7.14.5"
+  }
+}

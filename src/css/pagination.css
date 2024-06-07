@@ -1,0 +1,15 @@
+
+div .bt-panigation {
+    margin: 15px;
+    padding: 15px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: rgb(127, 173, 57);
+}
+
+div .bt-panigation:hover {
+
+    background-color: #7e592a; /* Đổi màu background khi rê chuột vào */
+    color: white; /* Đổi màu chữ khi rê chuột vào */
+}

@@ -1,0 +1,47 @@
+.page-404 {
+    padding: 120px 0;
+    font-family: "Arvo", serif;
+}
+
+.page-404 h1 {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 600;
+    font-size: 90px;
+    color: #333333;
+    margin-bottom: -10px;
+    letter-spacing: .15em;
+}
+
+.bg-404 {
+    background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+    height: 400px;
+    width: 600px;
+    background-position: center;
+}
+
+.bg-404 h1 {
+    font-size: 80px;
+}
+
+.bg-404 h3 {
+    font-size: 80px;
+}
+
+.link-404 {
+    color: #fff !important;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    background: #2ca224;
+    margin: 20px 0;
+    display: inline-block;
+    transition: .3s;
+}
+
+.link-404:hover {
+    background: #3ead37;
+}
+
+.content-404 {
+    margin-top: -50px;
+}

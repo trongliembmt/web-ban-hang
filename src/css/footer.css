@@ -1,0 +1,102 @@
+.footer {
+    background: #F3F6FA;
+    padding-top: 70px;
+    font-size: 15px;
+    color: #383838;
+}
+
+.footer h6 {
+    margin-bottom: 15px;
+    font-weight: bolder;
+    color: #2f2f2f;
+}
+
+.footer-about-contact-item {
+    line-height: 1.6em;
+}
+
+.footer-links li a {
+    color: #383838;
+    line-height: 1.8em;
+    transition: color ease .1s;
+}
+
+.footer-links li a:hover {
+    color: var(--color-main);
+}
+
+.footer-widget form {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.footer-widget form input {
+    display: inline-block;
+    width: 260px;
+    padding: 0 18px;
+    color: #1c1c1c;
+    height: 46px;
+    border: 1px solid #ededed;
+    border-radius: 3px;
+}
+
+.footer-widget form input::placeholder {
+    color: #6c6c6c;
+}
+
+.footer-widget form button {
+    border: none;
+    background-color: var(--color-main);
+    color: #fff;
+    font-weight: bolder;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 26px;
+    height: 44px;
+    border-radius: 3px;
+}
+
+.footer-widget .footer-widget-social a {
+    display: inline-block;
+    position: relative;
+    height: 44px;
+    width: 44px;
+    font-size: 17px;
+    color: #3a3a3a;
+    border: 1px solid #ededed;
+    border-radius: 50%;
+    text-align: center;
+    background: white;
+    transition: all 0.3s;
+    margin-right: 10px;
+}
+
+.footer-widget .footer-widget-social a i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer-widget .footer-widget-social a:last-child {
+    margin-right: 0;
+}
+
+.footer-widget .footer-widget-social a:hover {
+    background: #7fad39;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.footer-copyright {
+    border-top: 1px solid #dcdcdc;
+    padding: 20px 0;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.footer-copyright span {
+    color: #4f4f4f;
+}

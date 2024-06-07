@@ -1,0 +1,56 @@
+
+.header-modal {
+    background-color: #d8e1d7;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-close-button {
+    background-color: transparent;
+    border: none;
+    color: #000;
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 550px;
+}
+
+.custom-close-button:hover {
+    color: #ff0000; /* Màu khi di chuột qua nút đóng */
+}
+
+.body-content {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.electronic-wallet {
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.electronic-wallet img {
+    padding: 5px;
+}
+
+.electronic-wallet:hover{
+    background-color: #e1d1d1;
+    cursor: pointer;
+}
+
+.notify-warning-content-right{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #8C6635;
+}
+
+.notify-success-content-right{
+    font-size: 15px;
+    font-weight: bolder;
+    color: #7fad39;
+}

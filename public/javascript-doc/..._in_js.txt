@@ -1,0 +1,31 @@
+
+Toán tử "..." trong JavaScript được gọi là toán tử Spread hoặc toán tử Rest,tùy thuộc vào ngữ cảnh sử dụng.
+Dưới đây là hai cách sử dụng chính của nó:
+
+1. Toán tử Spread:
+
+Sử dụng để mở rộng một mảng (array) hoặc một đối tượng (object) thành các phần tử riêng lẻ.
+Ví dụ:
+
+    const arr1 = [1, 2, 3];
+    const arr2 = [...arr1, 4, 5]; // arr2 sẽ là [1, 2, 3, 4, 5]
+
+    const obj1 = { x: 1, y: 2 };
+    const obj2 = { ...obj1, z: 3 }; // obj2 sẽ là { x: 1, y: 2, z: 3 }
+
+
+2. Toán tử Rest:
+
+Sử dụng để gom các đối số thành một mảng (array) trong hàm hoặc phương thức.
+Ví dụ:
+
+    function sum(...numbers) {
+      let total = 0;
+      for (const number of numbers) {
+        total += number;
+      }
+      return total;
+    }
+
+    console.log(sum(1, 2, 3)); // Kết quả là 6
+
